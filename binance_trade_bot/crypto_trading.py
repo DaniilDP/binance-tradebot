@@ -3,10 +3,10 @@ import time
 
 from binance_api_manager import BinanceAPIManager
 from config import Config
-from .database import Database
-from .logger import Logger
-from .scheduler import SafeScheduler
-from .strategies import get_strategy
+from database import Database
+from logger import Logger
+from scheduler import SafeScheduler
+from strategies import get_strategy
 
 
 def main():
