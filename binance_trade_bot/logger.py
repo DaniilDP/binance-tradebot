@@ -1,6 +1,6 @@
 import logging.handlers
 
-from .notifications import NotificationHandler
+from notifications import NotificationHandler
 
 
 class Logger:
