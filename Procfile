@@ -1,1 +1,1 @@
-web: python -m binance_trade_bot
+worker: python binance_trade_bot $PORT
