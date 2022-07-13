@@ -10,9 +10,9 @@ from socketio.exceptions import ConnectionError as SocketIOConnectionError
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import Session, scoped_session, sessionmaker
 
-from .config import Config
-from .logger import Logger
-from .models import *  # pylint: disable=wildcard-import
+from config import Config
+from logger import Logger
+from models import *  # pylint: disable=wildcard-import
 
 
 class Database:
